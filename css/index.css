@@ -7,10 +7,10 @@
 }
 
 :root {
-  --blue: #e1b382;
-  --grey: #964734;
-  --black: #c89666;
-  --green: #12343b;
+  --blue: aqua;
+  --grey: blue;
+  --black: black;
+  --green: aqua;
 }
 
 body {
