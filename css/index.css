@@ -38,8 +38,8 @@ body {
 }
 .header{
   margin-top: 10px;
-  width: 360px;
-  height: 70px;
+  width: 350px;
+  height: 63px;
   background-color: rgba(0,0,0,.5);
   backdrop-filter: blur(25px);
   border-radius: 8px;
@@ -57,7 +57,7 @@ body {
   font-weight: 500;
   color: var(--blue);
   text-decoration: none;
-  padding: 0 22px;
+  padding: 0 23px;
   z-index: 10;
 }
 .header a:hover{
@@ -69,7 +69,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60px;
+  width: 80px;
   height: 100%;
   background: var(--blue);
   border-radius: 8px;
@@ -82,19 +82,19 @@ body {
   opacity: 2;
 }
 .header a:nth-child(2):hover~span{
-  left: 95px;
+  left: 88px;
   display: block;
   opacity: 2;
 }
 .header a:nth-child(3):hover~span{
-  left: 190px;
+  left: 180px;
   width: 70px;
   display: block;
   opacity: 2;
 }
 .header a:nth-child(4):hover~span{
-  left: 285px;
-  width: 90px;
+  left: 257px;
+  width: 93px;
   display: block;
   opacity: 2;
 }
@@ -239,7 +239,7 @@ body {
 }
 
 .cert:hover{
-  transform: scale(1.2);
+  transform: scale(2);
   border: 1px solid var(--blue);
   box-shadow: 0 0 26px var(--black);
   border-radius: 3px;
@@ -331,12 +331,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: left;
-    width: 360px;
+    width: 320px;
     pading:10px;
 }
 
 .skill {
-    margin: 10px 0;
+    margin: 20px 0;
     color: var(--blue);
     font-size: 1.1rem;
 }
@@ -347,7 +347,7 @@ progress {
     margin: 5px;
     box-shadow: 0 0 10px var(--blue);
     border:2px solid var(--blue);
-    width: 310px;  /*Full width */
+    width: 290px;  /*Full width */
     height: 13px; /* Height of the progress bar */
     border-radius: 5px; /* Rounded corners */
     background-color: var(--lblack); /* Background color */
@@ -400,7 +400,7 @@ progress::-moz-progress-bar {
   height: 360px;
 }
 .contact1{
-  width: 360px;
+  width: 320px;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -409,7 +409,7 @@ progress::-moz-progress-bar {
 .contact-inputs{
   background-color: var(--dblue);
   margin: 10px;
-  width: 360px;
+  width: 320px;
   height: 50px;
   border: none;
   outline: none;
